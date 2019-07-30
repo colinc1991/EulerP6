@@ -28,6 +28,10 @@ namespace EulerP6
             Console.WriteLine($"The answer to {squareOfSum} minus {sumOfSquares} is {squareOfSum - sumOfSquares}");
         }
 
+        /// <summary>
+        /// This method returns the sum of each squared whole number up to 100
+        /// </summary>
+        /// <returns>Returns the sum of each squared whole number up to 100</returns>
         static double GetSumOfSquares()
         {
             double total = 0;
@@ -40,6 +44,10 @@ namespace EulerP6
             return total;
         }
 
+        /// <summary>
+        /// This method returns the square of the sum of each whole number up to 100
+        /// </summary>
+        /// <returns>Returns the square of the sum of each whole number up to 100</returns>
         static double GetSquareOfSum()
         {
             int total = 0;
